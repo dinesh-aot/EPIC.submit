@@ -9,8 +9,8 @@ FROM python:3.12-slim-bookworm
 # - https://blog.danman.eu/cron-jobs-in-openshift/
 #
 # --------------------------------------------------------------------------------------------------------
-ARG SOURCE_REPO=BCDevOps
-ARG GOCROND_VERSION=0.6.2
+ARG SOURCE_REPO=webdevops
+ARG GOCROND_VERSION=23.12.0
 ARG VCS_REF="missing"
 ARG BUILD_DATE="missing"
 
